@@ -6,15 +6,13 @@ colorSchema: dark
 layout: default
 mdc: true
 ---
-<center><h1>Flask + <strong>Template&nbsp;Strings</strong></h1> = ❤️</center>
+<center><h1>Flask + <strong>Template&nbsp;Strings</strong> = ❤️</h1></center>
 
 ---
 
 # Hi, We're **Paul** and **Dave**!
 
-Dave's an indie dev based in sunny Seattle.
-
-Paul is head of developer advocacy at JetBrains.
+Dave's an indie dev. Paul heads developer advocacy at JetBrains.
 
 We co-authored PEP 750 aka **Template Strings**.
 
