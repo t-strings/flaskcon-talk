@@ -28,6 +28,10 @@
 	margin-bottom: -1em;
 }
 
+.tighter {
+	margin-bottom: -2em;
+}
+
 strong {
 	color: var(--sunset);
 }

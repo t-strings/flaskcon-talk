@@ -10,29 +10,43 @@ mdc: true
 
 ---
 
-# Hi, We're **Paul** and **Dave**!
+# Hi, we're **Paul** and **Dave**
 
-Dave's an indie dev. Paul heads developer advocacy at JetBrains.
+<div v-click><p><strong>Paul Everitt</strong> heads developer advocacy at JetBrains.</p></div>
 
-We co-authored PEP 750 aka **Template Strings**.
+<div v-click><p><strong>Dave Peck</strong> is an indie dev in ☀️ Seattle.</p></div>
 
 
 ---
 
-# Let's talk **PEP 750**!
-
-TODO
+# We co-authored **PEP 750**
 
 <div v-click><p>Better known as <strong>Template Strings</strong></p></div>
 <div v-click><p>...<i>also</i> known as <strong>t-strings</strong></p></div>
+<div v-click><p>(it takes a village)</p></div>
+
+
 
 ---
 
-# We'll cover:
+# **T-strings**: coming soon!
 
-<div v-click><p><strong>What</strong> are t-strings?</p></div>
-<div v-click><p><strong>Why</strong> are t-strings?</p></div>
-<div v-click><p><s>Advanced usage</s></p></div>
+<div v-click><p>They'll ship in <strong>Python 3.14</strong>...</p></div>
+<div v-click><p>...later this year.</p></div>
+<div v-click><p>(if you've got <strong>3.14 beta</strong>, you've got t-strings)</p></div>
+
+
+---
+
+# Today!
+
+<div v-click class="tighter"><p>&ndash; <strong>What</strong> t-strings are</p></div>
+<div v-click class="tighter"><p>&ndash; What they <strong>aren't</strong></p></div>
+<div v-click class="tighter"><p>&ndash; <strong>Why</strong> t-strings are</p></div>
+<div v-click class="tighter"><p>&ndash; T-strings, html, and <strong>Flask</strong> ❤️</p></div>
+<div v-click class="tighter"><p>&ndash; Tooling for t-strings</p></div>
+<div v-click class="tighter"><p>&ndash; Some extra <i>sizzle</i></p></div>
+
 
 ---
 
