@@ -535,6 +535,8 @@ str(result)
 </div>
 
 ---
+transition: fade
+---
 
 # T-strings make strings **flexible**
 
@@ -696,5 +698,28 @@ str(element)
 
 ---
 
-# Flask and t-strings!
+# Flask + t-strings = ❤️
 
+---
+layout: image
+image: /img/flask-quickstart-quote.png
+backgroundSize: contain
+transition: fade
+---
+
+&nbsp;
+
+
+---
+layout: image
+image: /img/flask-t-strings.png
+backgroundSize: contain
+---
+
+&nbsp;
+
+---
+
+# Flask + t-strings = ❤️
+
+Enough slides; let's code.
