@@ -117,6 +117,33 @@ template = t"Hello, {friend}!" # 😊
 ```
 ````
 
+---
+
+# T-strings **aren't** _quite_ like jinja
+
+<div v-click><p>They're <strong>eagerly evaluated</strong></p></div>
+
+<div v-click><p>You do <i>not</i> keep calling <code>format()</code> or <code>render()</code> on them</p></div>
+
+<div v-click><p>Naming is hard (<i>sorry</i>!)</p></div>
+
+---
+
+# T-strings **aren't** _quite_ like jinja <span class="slide-count">(2)</span>
+
+````md magic-move
+```python314
+def greeting(name: str) -> Template:
+	return t"Hello, {name}!"
+```
+```python314
+def greeting(name: str) -> Template:
+	return t"Hello, {name}!"
+
+template_1 = greeting("Paul")
+template_2 = greeting("Dave")
+```
+````
 
 
 ---
@@ -627,10 +654,5 @@ str(element)
 
 ---
 
-# Thanks!
+# Flask and t-strings!
 
-Q&A
-
-I'm **Dave Peck**. 
-
-You can find me at **davepeck.org**
