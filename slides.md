@@ -119,7 +119,7 @@ template = t"Hello, {friend}!" # 😊
 
 ---
 
-# T-strings **aren't** _quite_ like jinja
+# T-strings **aren't** like jinja
 
 <div v-click><p>They're <strong>eagerly evaluated</strong></p></div>
 
@@ -129,7 +129,7 @@ template = t"Hello, {friend}!" # 😊
 
 ---
 
-# T-strings **aren't** _quite_ like jinja <span class="slide-count">(2)</span>
+# T-strings **aren't** like jinja <span class="slide-count">(2)</span>
 
 ````md magic-move
 ```python314
@@ -148,7 +148,7 @@ template_2 = greeting("Dave")
 
 ---
 
-# But t-strings are **different**:
+# T-strings are **not** like f-strings:
 
 ````md magic-move
 ```python314
@@ -179,7 +179,7 @@ type(t"Hello, {name}!")
 
 ---
 
-# T-strings are **not** strings
+# T-strings are **not strings**
 
 <div v-click><p>You write them like they <i>are</i>...</p></div>
 <div v-click>
@@ -191,7 +191,7 @@ t"This is not a string"
 
 ---
 
-# T-strings are **not** strings <span class="slide-count">(2)</span>
+# T-strings are **not strings** <span class="slide-count">(2)</span>
 
 ````md magic-move
 ```python314
@@ -653,7 +653,7 @@ def user_page(uid: str):
 
 # Down the rabbit hole
 
-We saw a simple example with HTML:
+We wrote a simple example with HTML:
 
 <div class="smallest">
 ```python314
