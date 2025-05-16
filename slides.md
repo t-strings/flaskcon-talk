@@ -119,13 +119,13 @@ template = t"Hello, {friend}!" # 😊
 
 ---
 
-# T-strings **aren't** like jinja
+# Naming things is hard (act 1)
 
-<div v-click><p>They're <strong>eagerly evaluated</strong></p></div>
+<div v-click><p>t-strings are <strong>eagerly evaluated</strong></p></div>
 
-<div v-click><p>You do <i>not</i> keep calling <code>format()</code> or <code>render()</code> on them</p></div>
+<div v-click><p>You do <i>not</i> keep calling <code>render_template()</code> on them</p></div>
 
-<div v-click><p>Naming is hard (<i>sorry</i>!)</p></div>
+<div v-click><p>Are <code>Template</code>s... <i>templates</i>?</p></div>
 
 ---
 
@@ -737,3 +737,24 @@ backgroundSize: contain
 # Flask + t-strings = ❤️
 
 Enough slides; let's code.
+
+
+---
+
+# In closing
+
+We're **excited** about t-strings!
+
+Lots of cool new **libraries** and **tools** are coming.
+
+Get involved!
+
+---
+
+# Say hello
+
+Open space: **Saturday** in **ROOM 320** at **11 AM**
+
+`@pauleveritt@fosstodon.org`
+
+`@davepeck@davepeck.org`
