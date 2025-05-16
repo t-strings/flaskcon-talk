@@ -741,6 +741,66 @@ Enough slides; let's look at code.
 
 ---
 
+# And now, over to...
+
+
+---
+layout: image-right
+image: /img/standards.png
+backgroundSize: contain
+---
+
+Who wants a new template language?
+
+---
+
+# Hi, I'm **Paul Everitt**.
+
+Head of developer advocacy at JetBrains. 
+
+Co-author on PEP 750.
+
+---
+
+# Modern web DX
+
+&ndash; Moving to React (then back?)
+
+&ndash; Linting, formatting, typechecking, refactoring, ...
+
+&ndash; Close to the language
+
+
+---
+layout: image
+image: /img/jsx.png
+backgroundSize: contain
+---
+
+
+---
+
+# What if we had...
+
+A modern DX for template languages
+
+Around community standards
+
+Quality/portable/interoperable themes, components, tooling
+
+---
+
+# t-strings and tdom
+
+&ndash; t-strings opens the doors for powerful, static analysis tools
+
+&ndash; Easy step from f-strings (ask Ned)
+
+&ndash; Languages like tdom can then organize a web story (LLMs?)
+
+
+---
+
 # In closing
 
 We're **excited** about t-strings!
@@ -755,61 +815,9 @@ Get involved!
 
 Open space: **Saturday** in **ROOM 320** at **11 AM**
 
-`@pauleveritt@fosstodon.org`
+Sprint **Monday**
 
-`@davepeck@davepeck.org`
+see Paul at the **PyCharm booth**
 
----
-<center><h1>Who wants a new template language?</h1></center>
+`https://github.com/t-strings`
 
-<img src="/standards.png" />
----
-
-# Hi, I'm **Paul Everitt**.
-
-Head of developer advocacy at JetBrains. Co-author on PEP 750.
-
----
-
-# Modern web DX
-
-- Moving to React (then back?)
-- Discovering:
-  - Linting, formatting, typechecking, refactoring, ...
-- Close to the language
-- Taps into static analysis and type checking
-
----
-
-# React-ish
-
-<img src="/jsx.png">
-
----
-
-# What if we had...
-
-- A modern DX for template languages
-- Around community standards
-- Quality/portable/interoperable themes, components, tooling
-
----
-
-# t-strings and tdom
-
-- t-strings opens the doors for powerful, static analysis tools
-- Easy step from f-strings (ask Ned)
-- Languages like tdom can then organize a web story
-- Maybe even...LLMs?
-- Let's take a look
-
----
-
-# In closing
-
-- Come join us
-  - Open space 11AM tomorrow room 320
-  - I'm at the PyCharm booth
-  - Sprint on Monday
-  - GitHub `https://github.com/t-strings`
-- Let's make Python's web story joyful
