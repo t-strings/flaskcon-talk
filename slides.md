@@ -655,7 +655,21 @@ def user_page(uid: str):
 
 # Down the rabbit hole
 
-We wrote a simple example with HTML:
+<div class="smaller">
+```python314
+def html(template: Template) -> HTMLElement:
+	...
+```
+</div>
+
+How does this _work_?
+
+
+---
+
+# Down the rabbit hole <span class="slide-count">(2)</span>
+
+We saw a simple implementation:
 
 <div class="smallest">
 ```python314
@@ -672,9 +686,9 @@ result = "".join(parts)
 
 ---
 
-# Down the rabbit hole <span class="slide-count">(2)</span>
+# Down the rabbit hole <span class="slide-count">(3)</span>
 
-And we saw hints of something fancier:
+And something fancier:
 
 <div class="smallest">
 ```python314
@@ -688,7 +702,7 @@ str(element)
 
 ---
 
-# Down the rabbit hole <span class="slide-count">(3)</span>
+# Down the rabbit hole <span class="slide-count">(4)</span>
 
 <div v-click><p>The <code>html()</code> function is doing a lot:</p></div>
 
