@@ -117,34 +117,6 @@ template = t"Hello, {friend}!" # 😊
 ```
 ````
 
----
-
-# Naming things is hard (act 1)
-
-<div v-click><p>t-strings are <strong>eagerly evaluated</strong></p></div>
-
-<div v-click><p>You do <i>not</i> keep calling <code>render_template()</code> on them</p></div>
-
-<div v-click><p>Are <code>Template</code>s... <i>templates</i>?</p></div>
-
----
-
-# T-strings **aren't** like jinja <span class="slide-count">(2)</span>
-
-````md magic-move
-```python314
-def greeting(name: str) -> Template:
-	return t"Hello, {name}!"
-```
-```python314
-def greeting(name: str) -> Template:
-	return t"Hello, {name}!"
-
-template_1 = greeting("Paul")
-template_2 = greeting("Dave")
-```
-````
-
 
 ---
 
@@ -653,6 +625,34 @@ def user_page(uid: str):
 
 ---
 
+# Naming things is hard
+
+<div v-click><p>t-strings are <strong>eagerly evaluated</strong></p></div>
+
+<div v-click><p>You do <i>not</i> keep calling <code>render_template()</code> on them</p></div>
+
+<div v-click><p>Are <code>Template</code>s... <i>templates</i>?</p></div>
+
+---
+
+# Just use Python!
+
+````md magic-move
+```python314
+def greeting(name: str) -> Template:
+	return t"Hello, {name}!"
+```
+```python314
+def greeting(name: str) -> Template:
+	return t"Hello, {name}!"
+
+template_1 = greeting("Paul")
+template_2 = greeting("Dave")
+```
+````
+
+---
+
 # Down the rabbit hole
 
 <div class="smaller">
@@ -736,7 +736,7 @@ backgroundSize: contain
 
 # Flask + t-strings = ❤️
 
-Enough slides; let's code.
+Enough slides; let's look at code.
 
 
 ---
